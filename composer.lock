@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "90d7c4a2b495edeecc3cccdf06edec94",
+    "content-hash": "2e8cd019670c080d7bcb30e54fe24683",
     "packages": [
         {
             "name": "alchemy/zippy",
@@ -4072,6 +4072,61 @@
             "support": {
                 "source": "http://cgit.drupalcode.org/taxonomy_manager",
                 "issues": "https://drupal.org/project/issues/taxonomy_manager"
+            }
+        },
+        {
+            "name": "drupal/term_condition",
+            "version": "1.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/term_condition.git",
+                "reference": "8.x-1.1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/term_condition-8.x-1.1.zip",
+                "reference": "8.x-1.1",
+                "shasum": "b2214cb533824ef3a195e6b61b40700dbb7b8ab4"
+            },
+            "require": {
+                "drupal/core": "*"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "branch-alias": {
+                    "dev-1.x": "1.x-dev"
+                },
+                "drupal": {
+                    "version": "8.x-1.1",
+                    "datestamp": "1458914339",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "DanielVeza",
+                    "homepage": "https://www.drupal.org/user/3362504"
+                },
+                {
+                    "name": "jazzslider",
+                    "homepage": "https://www.drupal.org/user/430722"
+                }
+            ],
+            "description": "Provides a Condition plugin which checks to see if a node references a particular taxonomy term.",
+            "homepage": "https://www.drupal.org/project/term_condition",
+            "keywords": [
+                "Drupal"
+            ],
+            "support": {
+                "source": "http://cgit.drupalcode.org/term_condition",
+                "issues": "http://drupal.org/project/issues/term_condition"
             }
         },
         {
